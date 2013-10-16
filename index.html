@@ -64,7 +64,7 @@
 					<div class="inner">
 						<h1>課表內容</h1>
 					</div>	
-					<table>
+					<table id="sch">
 						<thead>
 							<tr>
 								<th></th>
@@ -269,14 +269,7 @@
 							<!--Friday-->
 							<tr id="sch-fri">
 								<th scrope="row">Friday</th>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
+								<td colspan="8" style="text-align: center">我一整天都沒課...哇哈哈哈～～～！！！</td>
 							</tr>
 						</tbody>
 					</table>
@@ -346,7 +339,28 @@
 			
 			//啟用導覽列保持在使用者上
 			$("#wrapper nav").smartFloat();
-		
+			
+			//取得今天星期並標注在表格上
+			var date = new Date();
+			var day = date.getDay(); 
+			switch(day) {
+			case 1:
+				$("#sch #sch-mon").addClass("today");
+				break;
+			case 2:
+				$("#sch #sch-tue").addClass("today");
+				break;
+			case 3:
+				$("#sch #sch-wed").addClass("today");
+				break;
+			case 4:
+				$("#sch #sch-thi").addClass("today");
+				break;
+			case 5:
+				$("#sch #sch-fri").addClass("today");
+				break;
+			}
+
 		}); 
 		
 	</script>

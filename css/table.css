@@ -38,6 +38,9 @@ tbody tr {
 tbody tr:nth-child(odd) {
     background-color: #FFFFEA;
 }
+tbody tr.today {
+	background-color: #FFC1C1;
+}
 tbody tr:last-child {
     border-bottom: medium none;
 }
