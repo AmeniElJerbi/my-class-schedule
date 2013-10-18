@@ -14,14 +14,19 @@ header {
 	height: 500px;
 }
 
+#wrapper {
+	padding-top: 80px; /*fix scroll top*/
+}
+
 nav {
 	width: 100%;
-	
-	position: relative;
+	height: 80px;
+	position: absolute; /*fix scroll top*/
+	top: 500px; /*fix scroll top*/
 	z-index: 4;
 	overflow: hidden;
 }
-#portamento_container {
+/*#portamento_container {
 	position: relative;
 }
 #portamento_container nav {
@@ -29,7 +34,7 @@ nav {
 }
 #portamento_container nav.fixed {
 	position: fixed;
-}
+}*/
 nav .inner{
 	padding-left: 10%;
 	padding-right: 10%;

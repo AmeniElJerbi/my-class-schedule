@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>元兒～ㄉ102第一學期功課表</title>
 	<!-- 清除預設樣式 -->
-<!-- 	<link href="assets/css/YUI-reset.css" rel="stylesheet" /> -->
+	<link href="assets/css/YUI-reset.css" rel="stylesheet" />
 	
 	<!-- 套用自己的樣式 -->
 <!-- 	<link rel="stylesheet" type="text/css" href="css/test.css"> -->
@@ -28,7 +28,7 @@
 		</header>
 		
 		<div id="wrapper" class="container">
-			<nav>
+			<nav gumby-fixed="top">
 				<div class="inner">
 					<div class="title">
 						<h1>功課表</h1>
@@ -296,58 +296,6 @@
 					<li>Create in 2013/1/15</li>
 					<li>By 元兒～</li>
 				</ul>
-				
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				<p>Test</p>
-				
 			</div>
 		</footer>
 	</div>
@@ -355,7 +303,7 @@
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollTo.js"></script>
 	<script src="assets/js/jquery.nav.js"></script>
-	<script src="assets/js/portamento.js"></script>
+	<script src="assets/js/jquery.smartFloat.js"></script>
 	<script>
 		//頁面載入後
 		$(document).ready(function() {
@@ -367,11 +315,7 @@
 // 				});
 			
 			//啟用導覽列保持在使用者上
-			$("#wrapper nav").scrollToFixed();
-// 			$("#wrapper nav").portamento( {
-// 				gap:0, disableWorkaround:true,
-// 				wrapper: $('#wrapper') 
-// 			} );
+			$("#wrapper nav").smartFloat();
 		
 		}); 
 		
