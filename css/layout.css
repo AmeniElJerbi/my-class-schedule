@@ -13,6 +13,9 @@ header {
 	
 	height: 500px;
 }
+header .inner {
+	padding-top: 170px;
+}
 
 #wrapper {
 	padding-top: 80px; /*fix scroll top*/
@@ -38,6 +41,7 @@ nav {
 nav .inner{
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-top: 1rem;
 }
 nav .title {
 	float: left;
@@ -57,6 +61,13 @@ section {
 section .inner{
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#Schedule {
+	padding-bottom: 0;
+}
+#Schedule .inner{
+	margin-bottom: 2em;
 }
 
 footer {

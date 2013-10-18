@@ -7,7 +7,7 @@
 		http://www.lslnet.com/linux/f/docs1/i46/big5320004.htm
 */
 
-table {
+/*table {
 width: 100%;
 }
 table,th,td {
@@ -18,4 +18,29 @@ th {
 background-color: #e5e5e5;}
 th[scpoe] {
 background-color: #add8e6; 
+}*/
+
+/************************************************************************/
+
+table {
+    width: 100%;
 }
+th, td {
+    padding: 0.6em;
+}
+thead {
+    border-bottom: 6px double #A52A2A;
+}
+tbody tr {
+    border-bottom: 1px solid #000000;
+}
+tbody tr:nth-child(odd) {
+    background-color: #FFFFEA;
+}
+tbody tr:last-child {
+    border-bottom: medium none;
+}
+tbody th[scrope] {
+    color: #B9550D;
+    font-weight: bold;
+}}
