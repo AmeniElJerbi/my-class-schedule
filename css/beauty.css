@@ -1,0 +1,25 @@
+body{
+	background-color: #FCFCFC;
+}
+
+header {
+	background-color: #5761EB;
+}
+
+nav {
+	background-color: white;
+	
+	box-shadow: 0 0 20px gray;
+}
+
+#Info {
+	background-color: #FFF2DB;
+}
+
+#Schedule {
+	background-color: #FCFCFC;
+}
+
+footer {
+	background-color: #A03B1C;
+}

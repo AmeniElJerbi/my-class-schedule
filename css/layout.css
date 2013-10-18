@@ -3,16 +3,36 @@ html{
 }
 body{
 	height:100%;
-	background-color: #FCFCFC;
 	margin: 0;
 }
 
 header {
+	position: relative;
+	z-index: 5;
 	overflow: hidden;
+	
+	height: 500px;
 }
 
 nav {
+	width: 100%;
+	
+	position: relative;
+	z-index: 4;
 	overflow: hidden;
+}
+#portamento_container {
+	position: relative;
+}
+#portamento_container nav {
+	position: absolute;
+}
+#portamento_container nav.fixed {
+	position: fixed;
+}
+nav .inner{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 nav .title {
 	float: left;
@@ -29,12 +49,11 @@ section {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
 }
-.inner{
+section .inner{
 	padding-left: 10%;
 	padding-right: 10%;
 }
 
-section#Schedule {
-	background-color: #FFF2DB;
+footer {
+	overflow: hidden;
 }
-
