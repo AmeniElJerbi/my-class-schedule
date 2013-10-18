@@ -3,7 +3,7 @@ body{
 }
 
 header {
-	background-color: #5761EB;
+	background-color: #002C55;
 }
 header .inner {
 	text-align: center;
@@ -65,7 +65,15 @@ section h1 {
 #Schedule {
 	background-color: #FCFCFC;
 }
+#Links{
+	background-color: #DBFFDE;
+}
 
 footer {
-	background-color: #A03B1C;
+	background-color: #1A1A1A;
+	color: white;
+	text-align: right;
+}
+footer a{
+	color: white;
 }

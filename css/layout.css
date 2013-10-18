@@ -39,8 +39,8 @@ nav {
 	position: fixed;
 }*/
 nav .inner{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 1%;
+	padding-right: 1%;
 	padding-top: 1rem;
 }
 nav .title {
@@ -72,4 +72,5 @@ section .inner{
 
 footer {
 	overflow: hidden;
+	padding: 2.5rem;
 }
