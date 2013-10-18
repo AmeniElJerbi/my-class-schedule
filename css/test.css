@@ -1,0 +1,16 @@
+header {
+	background-color: blue;
+}
+
+nav {
+	background-color: green;
+}
+
+section {
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+footer {
+	background-color: red;
+}

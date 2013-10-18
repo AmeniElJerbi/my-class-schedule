@@ -4,5 +4,37 @@ html{
 body{
 	height:100%;
 	background-color: #FCFCFC;
+	margin: 0;
+}
+
+header {
+	overflow: hidden;
+}
+
+nav {
+	overflow: hidden;
+}
+nav .title {
+	float: left;
+}
+nav ul {
+	float: right;
+}
+nav ul li {
+	display: inline;
+}
+
+section {
+	overflow: hidden;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+.inner{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+section#Schedule {
+	background-color: #FFF2DB;
 }
 

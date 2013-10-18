@@ -11,8 +11,9 @@
 <!-- 	<link href="assets/css/YUI-reset.css" rel="stylesheet" /> -->
 	
 	<!-- 套用自己的樣式 -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/table.css">
 </head>
 <body>
 	<div id="page">
@@ -24,245 +25,257 @@
 				<h2>搞倒大四才做這個</h2>
 			</div>
 		</header>
-		<nav>
-			<h1>功課表</h1>
-			
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Schedule</a></li>
-				<li><a href="#">About</a></li>
-			</ul>
-		</nav>
 		
-		<main>
-			<section id="Schedule">
+		<div id="wrapper" class="container">
+			<nav>
 				<div class="inner">
+					<div class="title">
+						<h1>功課表</h1>
+					</div>
 					
-					<table>
-					<thead>
-						<tr>
-							<th></th>
-							<th scpoe="col">1</th>
-							<th scpoe="col">2</th>
-							<th scpoe="col">3</th>
-							<th scpoe="col">4</th>
-							<th scpoe="col">5</th>
-							<th scpoe="col">6</th>
-							<th scpoe="col">7</th>
-							<th scpoe="col">8</th>
-						</tr>
-					</thead>
-					<tbody>
-						<!--Monday-->
-						<tr id="sch-mon">
-							<th scrope="row">Monday</th>
-							<td></td>
-							<td></td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">演算法</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E410</li>
-										<li class="sch-teacher">俞征武</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">演算法</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E410</li>
-										<li class="sch-teacher">俞征武</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">電腦網路</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E406</li>
-										<li class="sch-teacher">王俊鑫</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">電腦網路</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E406</li>
-										<li class="sch-teacher">王俊鑫</li>
-									</ul>
-								</div>
-							</td>
-							<td></td>
-							<td></td>
-						</tr>
-						
-						<!--Tuesday-->
-						<tr id="sch-tue">
-							<th scrope="row">Tuesday</th>
-							<td></td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">系統程式</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">劉懷仁</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">工程數學</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E407</li>
-										<li class="sch-teacher">石昭玲</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">工程數學</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E407</li>
-										<li class="sch-teacher">石昭玲</li>
-									</ul>
-								</div>
-							</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">編譯器</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">許慶賢</li>
-									</ul>
-								</div>
-							</td>
-						</tr>
-						
-						<!--Wednesday-->
-						<tr id="sch-wed">
-							<th scrope="row">Wednesday</th>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">演算法</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E410</li>
-										<li class="sch-teacher">俞征武</li>
-									</ul>
-								</div>
-							</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">工程數學</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E407</li>
-										<li class="sch-teacher">石昭玲</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">電腦網路</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E406</li>
-										<li class="sch-teacher">王俊鑫</li>
-									</ul>
-								</div>
-							</td>
-						</tr>
-						
-						<!--Thursday-->
-						<tr id="sch-thu">
-							<th scrope="row">Thursday</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">編譯器</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">許慶賢</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">編譯器</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">許慶賢</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">系統程式</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">劉懷仁</li>
-									</ul>
-								</div>
-							</td>
-							<td>
-								<div class="sch-the-class">
-									<ul>
-										<li class="sch-name">系統程式</li>
-										<li class="sch-kind"><span class="obligatory">必</span></li>
-										<li class="sch-classroom">E409</li>
-										<li class="sch-teacher">劉懷仁</li>
-									</ul>
-								</div>
-							</td>
-						</tr>
-						
-						<!--Friday-->
-						<tr id="sch-fri">
-							<th scrope="row">Friday</th>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-					</tbody>
-					</table>
-					
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">About</a></li>
+					</ul>
 				</div>
-			</section>
+			</nav>
 			
-			<section id="About">
-				<div class="inner">
-				</div>
-			</section>
-		</main>
+			<main>
+				<section id="Info">
+					<div class="inner">
+						<h1>學期資訊</h1>
+					</div>
+				</section>
+				
+				<section id="Schedule">
+					<div class="inner">
+						<h1>課表內容</h1>
+					</div>	
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th scpoe="col">1</th>
+								<th scpoe="col">2</th>
+								<th scpoe="col">3</th>
+								<th scpoe="col">4</th>
+								<th scpoe="col">5</th>
+								<th scpoe="col">6</th>
+								<th scpoe="col">7</th>
+								<th scpoe="col">8</th>
+							</tr>
+						</thead>
+						<tbody>
+							<!--Monday-->
+							<tr id="sch-mon">
+								<th scrope="row">Monday</th>
+								<td></td>
+								<td></td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">演算法</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E410</li>
+											<li class="sch-teacher">俞征武</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">演算法</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E410</li>
+											<li class="sch-teacher">俞征武</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">電腦網路</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E406</li>
+											<li class="sch-teacher">王俊鑫</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">電腦網路</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E406</li>
+											<li class="sch-teacher">王俊鑫</li>
+										</ul>
+									</div>
+								</td>
+								<td></td>
+								<td></td>
+							</tr>
+							
+							<!--Tuesday-->
+							<tr id="sch-tue">
+								<th scrope="row">Tuesday</th>
+								<td></td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">系統程式</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">劉懷仁</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">工程數學</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E407</li>
+											<li class="sch-teacher">石昭玲</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">工程數學</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E407</li>
+											<li class="sch-teacher">石昭玲</li>
+										</ul>
+									</div>
+								</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">編譯器</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">許慶賢</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							
+							<!--Wednesday-->
+							<tr id="sch-wed">
+								<th scrope="row">Wednesday</th>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">演算法</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E410</li>
+											<li class="sch-teacher">俞征武</li>
+										</ul>
+									</div>
+								</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">工程數學</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E407</li>
+											<li class="sch-teacher">石昭玲</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">電腦網路</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E406</li>
+											<li class="sch-teacher">王俊鑫</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							
+							<!--Thursday-->
+							<tr id="sch-thu">
+								<th scrope="row">Thursday</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">編譯器</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">許慶賢</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">編譯器</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">許慶賢</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">系統程式</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">劉懷仁</li>
+										</ul>
+									</div>
+								</td>
+								<td>
+									<div class="sch-the-class">
+										<ul>
+											<li class="sch-name">系統程式</li>
+											<li class="sch-kind"><span class="obligatory">必</span></li>
+											<li class="sch-classroom">E409</li>
+											<li class="sch-teacher">劉懷仁</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							
+							<!--Friday-->
+							<tr id="sch-fri">
+								<th scrope="row">Friday</th>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				
+				<section id="About">
+					<div class="inner">
+					</div>
+				</section>
+			</main>
+		</div>
 		
 		<footer>
 			<div class="inner">
@@ -276,6 +289,6 @@
 		</footer>
 	</div>
 	
-	<script src="assets/js/jquery.min.js"></script>
+<!-- 	<script src="assets/js/jquery.min.js"></script> -->
 </body>
 </html>
