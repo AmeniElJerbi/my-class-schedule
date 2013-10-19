@@ -21,24 +21,23 @@
 		
 		<header id="Title">
 			<div class="inner">
-				<!-- 這是header頁首區塊 -->
 				<h1>元兒～的功課表</h1>
 				<h2>搞到大四才做這個...</h2>
 			</div>
 		</header>
 		
 		<div id="wrapper" class="container">
-			<nav gumby-fixed="top">
+			<nav id="site-nav">
 				<div class="inner">
 					<div class="title">
 						<h1>元兒～ㄉ102第一學期功課表</h1>
 					</div>
 					
 					<ul>
-						<li><a href="#">Info</a></li>
-						<li><a href="#">Schedule</a></li>
-						<li><a href="#">Links</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="#Info">Info</a></li>
+						<li><a href="#Schedule">Schedule</a></li>
+						<li><a href="#Links">Links</a></li>
+						<li><a href="#About">About</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -332,12 +331,12 @@
 	<script>
 		//頁面載入後
 		$(document).ready(function() {
-// 			//啟用捲軸超連結
-// 			$('#nav-content').onePageNav({
-// 					currentClass: 'active',
-// 					scrollOffset: 0,	//下移高度
-// 					scrollThreshold: 0.5
-// 				});
+			//啟用捲軸超連結
+			$("#site-nav ul").onePageNav({
+				currentClass: 'active',
+				scrollOffset: 80,	//下移高度
+				scrollThreshold: 0.5
+			});
 			
 			//啟用導覽列保持在使用者上
 			$("#wrapper nav").smartFloat();
